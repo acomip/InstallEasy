@@ -1,0 +1,28 @@
+#### Base Repo para sistemas 32Bits
+#### Inserido por Bruno P. Domingues
+#### Para uso ACOMIP
+
+
+[base]
+name=CentOS-$releasever – Base
+baseurl=http://vault.centos.org/5.11/os/i386/
+
+[updates]
+name=CentOS-$releasever – Updates
+baseurl=http://vault.centos.org/5.11/updates/i386/
+
+[addons]
+name=CentOS-$releasever – Addons
+baseurl=http://vault.centos.org/5.11/addons/i386/
+
+[extras]
+name=CentOS-$releasever – Extras
+baseurl=http://vault.centos.org/5.11/extras/i386/
+
+[centosplus]
+name=CentOS-$releasever – Plus
+baseurl=http://vault.centos.org/5.11/centosplus/i386/
+
+[contrib]
+name=CentOS-$releasever – Contrib
+baseurl=http://vault.centos.org/5.11/contrib/i386/
